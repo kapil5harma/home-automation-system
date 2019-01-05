@@ -7,7 +7,42 @@ body {
   background: whitesmoke;
 }
 
-.Home {
+.Home,
+.Visualize,
+.Report,
+.Settings {
   width: 100vw;
-  height: 75vh;
+  /* height: 75vh; */
+}
+
+.Report {
+  height: 7.5vh;
+}
+.Settings {
+  display: flex;
+  align-items: center;
+  height: 7.5vh;
+}
+.Visualize {
+  height: 65vh;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.links h4 {
+  cursor: pointer;
+}
+
+a-scene.fullscreen .a-canvas {
+  position: unset !important;
+}
+
+button {
+  margin-left: 5rem !important;
+  width: 5rem;
+  line-height: 1.2 !important;
+  border-radius: 4px !important;
+  outline: unset !important;
 }
